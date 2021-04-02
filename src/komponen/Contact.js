@@ -60,8 +60,7 @@ const Contact = () => {
           <div className="nine columns">
             <div className='contactForm'>
               <form id='contact-form' onSubmit={handleSubmit(onSubmit)} noValidate>
-                {/* Row 1 of form */}
-                <div className='row formRow'>
+                <div className=''>
                   <div className='col-6'>
                     <input
                       type='text'
@@ -95,8 +94,8 @@ const Contact = () => {
                   </div>
                 </div>
                 {/* Row 2 of form */}
-                <div className='row formRow'>
-                  <div className='col'>
+                <div className=''>
+                  <div className='col-6'>
                     <input
                       type='text'
                       name='subject'
@@ -116,8 +115,8 @@ const Contact = () => {
                   </div>
                 </div>
                 {/* Row 3 of form */}
-                <div className='row formRow'>
-                  <div className='col'>
+                <div className=''>
+                  <div className='col-6'>
                     <textarea
                       rows={3}
                       name='message'
