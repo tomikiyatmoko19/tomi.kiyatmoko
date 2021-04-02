@@ -56,8 +56,8 @@ const Contact = () => {
       </div>
 
 
-      <div className="row">
-          <div className="nine columns">
+      <div className="">
+          <div className="ten columns">
             <div className='contactForm'>
               <form id='contact-form' onSubmit={handleSubmit(onSubmit)} noValidate>
                 <div className=''>
