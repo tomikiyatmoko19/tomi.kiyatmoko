@@ -16,13 +16,11 @@ class About extends Component {
         }
         return (
             <section id="about">
-                <div className="three columns">
-                    <img className = "profile-pic" src={profilepic} alt=""/>
-                </div>
                 <div className ="nine columns main-col">
                 <div className = "row">
                 <div className= "columns">
                 <h2>About Meh</h2>
+                <img className = "profile-pic" src={profilepic} alt=""/>
                 <p>{bio}</p>
                 </div>
                     <div className = "columns contact-details">
