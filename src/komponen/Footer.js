@@ -16,12 +16,12 @@ class Footer extends Component {
                         </ul>
 
                     <ul>
-                        <li>My journey is still far in the world of learning</li>
+                        <li>Keep Learning</li>
                     </ul>
 
                     <ul className="copyright">
                         <li>
-                            Hak cipta
+                            @2021
                         </li>
                     </ul>
                     </div>
