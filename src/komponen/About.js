@@ -15,7 +15,7 @@ class About extends Component {
             var resumeDownload = this.props.data.resumedownload;
         }
         return (
-            <section id="about" style="text-align: justify;">
+            <section id="about">
                 <div className ="nine columns main-col">
                 <div className = "row">
                 <div className= "columns">
