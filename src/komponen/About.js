@@ -20,12 +20,13 @@ class About extends Component {
                 <div className = "row">
                 <div className= "columns">
                 <h2>About Meh</h2>
-                <div className ="row">
-                    <div className="columns">
+                <div className="columns">
                         <img className = "profile-pic" src={profilepic} alt=""/>
                     </div>
+                <div className="main-col">
+                    <p>{bio}</p>
                 </div>
-                <p>{bio}</p>
+                
                 </div>
                     <div className = "columns contact-details">
                         <h2>Details Contact</h2>
