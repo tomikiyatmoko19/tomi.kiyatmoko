@@ -16,12 +16,12 @@ class Footer extends Component {
                         </ul>
 
                     <ul>
-                        <li>Keep Learning</li>
+                        <li>Design By Tomi</li>
                     </ul>
 
                     <ul className="copyright">
                         <li>
-                            @2021
+                            Copyright @2021
                         </li>
                     </ul>
                     </div>
